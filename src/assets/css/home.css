@@ -1,0 +1,315 @@
+.van-nav-bar__content {
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #FF6040;
+}
+.van-nav-bar__content .van-nav-bar__title {
+  font-size: 0.4rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  color: #FFFFFF;
+}
+.masking {
+  width: 7.5rem;
+  height: 1.6rem;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF8A80 100%);
+  box-shadow: 0 2px 6px 0 rgba(255, 149, 128, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.masking .top {
+  width: 100%;
+  padding: 0 0.24rem;
+  height: 0.98rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.masking .top .left {
+  width: 0.36rem;
+  height: 0.44rem;
+}
+.masking .top .logo {
+  width: 1.82rem;
+  height: 0.48rem;
+}
+.masking .top input {
+  width: 2.68rem;
+  height: 0.64rem;
+  padding-left: 0.72rem;
+  border: 0.02rem solid #E6E6E6;
+  border-radius: 0.06rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.28rem;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 0.44rem;
+  background: url(../images/index/search.png) no-repeat 0.24rem 0.16rem #fff;
+  background-size: 0.32rem 0.32rem;
+}
+.masking .top .right {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+.masking .buttom {
+  width: 100%;
+  height: 0.64rem;
+  display: flex;
+}
+.masking .buttom ul {
+  width: 6.2rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  overflow: hidden;
+}
+.masking .buttom ul li {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  float: left;
+  font-family: PingFangSC-Regular;
+  font-size: 0.28rem;
+  color: #FFF3F2;
+  text-align: center;
+  margin: 0 0.22rem;
+  cursor: pointer;
+}
+.masking .buttom ul .active {
+  font-size: 0.32rem;
+  border-bottom: 0.04rem solid #fff;
+  border-radius: 0.02rem;
+}
+.masking .buttom .sort {
+  width: 1.3rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  font-family: PingFangSC-Regular;
+  font-size: 0.28rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.masking .buttom .sort img {
+  width: 0.24rem;
+  height: 0.24rem;
+}
+.van-swipe {
+  width: 6.7rem;
+  height: 3.9rem;
+  margin: 0.24rem auto;
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(255, 96, 64, 0.2);
+}
+.kingkong {
+  height: 1.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.kingkong .box {
+  text-align: center;
+}
+.kingkong .box img {
+  width: 0.64rem;
+  height: 0.64rem;
+}
+.kingkong .box p {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #333333;
+  text-align: center;
+  line-height: 0.2rem;
+  margin-top: 0.1rem;
+}
+.activity {
+  background-color: #f2f2f2;
+}
+.activity .miaosha {
+  width: 7.5rem;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activity .miaosha .seckill {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 0.1rem;
+  background: url("../images/index/big.png");
+  background-size: 3.5rem 3.5rem;
+}
+.activity .miaosha .seckill .top {
+  height: 0.32rem;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.activity .miaosha .seckill .top h1 {
+  font-family: PingFangSC-Semibold;
+  font-size: 0.32rem;
+  color: #85A642;
+  line-height: 0.32rem;
+}
+.activity .miaosha .seckill .top p {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #333333;
+  text-align: right;
+  line-height: 0.2rem;
+}
+.activity .miaosha .seckill .top p img {
+  width: 0.08rem;
+  height: 0.16rem;
+  margin-left: 0.1rem;
+}
+.activity .miaosha .seckill span {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #B1CC7A;
+  line-height: 0.2rem;
+  margin: 0.1rem 0.2rem;
+}
+.activity .miaosha .seckill .time {
+  margin-left: 0.14rem;
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+}
+.activity .miaosha .seckill .time span {
+  margin-right: 0.05rem;
+  margin-left: 0.05rem;
+  display: block;
+  width: 0.32rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  background-image: linear-gradient(180deg, #85A642 0%, #B1CC7A 100%);
+  border-radius: 0.02rem;
+  font-family: DINCondensed-Bold;
+  font-size: 0.24rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.activity .miaosha .seckill .time i {
+  width: 0.02rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  color: #85A642;
+  font-size: 0.2rem;
+  text-align: center;
+}
+.activity .miaosha .right {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.activity .miaosha .right .top {
+  width: 3.3rem;
+  height: 1.7rem;
+  padding-left: 0.2rem;
+  margin-bottom: 0.1rem;
+  background: url("../images/index/small.png");
+  background-size: 3.5rem 1.7rem;
+}
+.activity .miaosha .right .top h1 {
+  margin: 0.2rem 0;
+  font-family: PingFangSC-Semibold;
+  font-size: 0.32rem;
+  color: #FF6040;
+  line-height: 0.32rem;
+}
+.activity .miaosha .right .top p {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #FF9580;
+  line-height: 0.2rem;
+}
+.activity .miaosha .right .top div {
+  width: 1.1rem;
+  height: 0.4rem;
+  margin-top: 0.08rem;
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF9F80 100%);
+  border-radius: 0.04rem 0.24rem 0.24rem 0.04rem;
+}
+.activity .miaosha .right .top div span {
+  font-family: PingFangSC-Medium;
+  font-size: 0.2rem;
+  color: #FFFFFF;
+  line-height: 0.4rem;
+}
+.activity .miaosha .right .top div img {
+  width: 0.12rem;
+  height: 0.2rem;
+}
+.activity .miaosha .right .buttom {
+  width: 3.3rem;
+  height: 1.7rem;
+  padding-left: 0.2rem;
+  background: url("../images/index/02.png");
+  background-size: 3.5rem 1.7rem;
+}
+.activity .miaosha .right .buttom h1 {
+  margin: 0.2rem 0;
+  font-family: PingFangSC-Semibold;
+  font-size: 0.32rem;
+  color: #AF40FF;
+  line-height: 0.32rem;
+}
+.activity .miaosha .right .buttom p {
+  font-family: PingFangSC-Light;
+  font-size: 0.2rem;
+  color: #CA80FF;
+  line-height: 0.2rem;
+}
+.activity .miaosha .right .buttom .btn {
+  width: 1.1rem;
+  height: 0.4rem;
+  margin-top: 0.08rem;
+  background-image: linear-gradient(180deg, #AF40FF 0%, #F58CFF 100%);
+  border-radius: 0.04rem 0.24rem 0.24rem 0.04rem;
+}
+.activity .miaosha .right .buttom .btn span {
+  font-family: PingFangSC-Medium;
+  font-size: 0.2rem;
+  color: #FFFFFF;
+  line-height: 0.4rem;
+}
+.activity .miaosha .right .buttom .btn img {
+  width: 0.12rem;
+  height: 0.2rem;
+}
+.activity .commodity {
+  width: 7.1rem;
+  height: 3.7rem;
+  margin: 0.2rem auto;
+  background-color: #fff;
+}
+.activity .commodity .title {
+  width: 7.1rem;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.activity .commodity .title h1 {
+  font-family: PingFangSC-Light;
+  font-size: 0.28rem;
+  color: #999999;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.activity .commodity .title .titleactive {
+  font-size: 0.32rem;
+  color: #FF6040;
+}
+.activity .commodity .shops {
+  padding: 0 0.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.activity .commodity .shops .box img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.img {
+  width: 100%;
+}

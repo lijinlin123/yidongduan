@@ -1,0 +1,52 @@
+.van-nav-bar__content {
+  width: 7.5rem;
+  height: 0.88rem;
+  background-color: #FF6040;
+}
+.van-nav-bar__content .van-nav-bar__title {
+  font-size: 0.4rem;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  color: #FFFFFF;
+}
+.img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.detail {
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.detail p {
+  font-size: 20px;
+  line-height: 32px;
+}
+.detail .price {
+  font-size: 30px;
+  color: #FF6040;
+}
+.detail .num {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  justify-content: space-between;
+}
+.detail .num span {
+  font-size: 20px;
+}
+.detail .guige {
+  font-size: 20px;
+  display: flex;
+  justify-self: start;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.detail .guige .van-tag {
+  margin-left: 10px;
+}
+.detail .gdetail {
+  margin-top: 10px;
+}
